@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-+4j30LffJ4tgIMrq9CwHvn0NjEvmuDCOfk6Rpg2xg7zgOxWWtLtozDEEVvBPgHqE" crossorigin="anonymous">
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+<!--=======start navbar======-->  
+<nav class="navbar navbar-expand-lg bg-light alheader">
+    <div class="container-fluid">
+      <a class="navbar-brand navTitle" href="#">The Royal Wheel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="economy.html">Economy Cars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lux.html">Luxury Cars</a>
+          </li>   <li class="nav-item">
+            <a class="nav-link" href="reviews.html">Reviews</a>
+        </li>   <li class="nav-item">
+            <a class="nav-link" href="#.html">##</a>
+          </li>
+        </li>   <li class="nav-item">
+            <a class="nav-link" href="#.html">##</a>
+          </li>
+          </li>   <li class="nav-item">
+            <a class="nav-link bold" href="sign.html">Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--========end navbar=========-->
+    <section class="register-login_section">
+        <div class="my_container">
+          <!-- signup form -->
+          <form action="#" method="post" class="signup_form">
+            <h3>Sign up</h3>
+            <div class="form_row">
+              <div class="input_field">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName">
+              </div>
+              <div class="input_field">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName">
+              </div>
+            </div>
+            <div class="input_field">
+              <label for="signupEmail">Email</label>
+              <input type="email" name="signupEmail" id="signupEmail">
+            </div>
+            <div class="input_field">
+              <label for="signupPassword">Password</label>
+              <input type="password" name="signupPassword" id="signupPassword">
+            </div>
+            <div class="radio_container">
+              
+              <p>Gender:</p>
+              <div class="radio_field">
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+              </div>
+              <div class="radio_field">
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+              </div>
+            </div>
+            <button type="submit" name="signupSubmit" class="btn">Sign up</button>
+            <p>By signing up, you agree to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+            <p>Already a member? <a href="#" id="signInBtn">Sign in</a></p>
+          </form>
+          <!-- signin form -->
+          <form action="#" method="post" class="signin_form hide">
+            <h3>Sign up</h3>
+            <div class="input_field">
+              <label for="signinEmail">Email</label>
+              <input type="email" name="signinEmail" id="signinEmail">
+            </div>
+            <div class="input_field">
+              <label for="signinPassword">Password</label>
+              <input type="password" name="signinPassword" id="signinPassword">
+            </div>
+            <button type="submit" name="signinSubmit" class="btn">Sign in</button>
+            <p>Not a member? <a href="#" id="signUpBtn">Sign up</a></p>
+          </form>
+        </div>
+      </section>
+
+    <script src="sign.js"></script>
+</body>
+</html>

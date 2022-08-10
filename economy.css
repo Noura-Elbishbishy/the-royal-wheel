@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navTitle{
+    color:  #6d231c !important;
+}
+.alheader{
+    width: 100%;
+}
+.container  {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.cards {
+    width: 30rem;
+   text-align: center;
+   background: color #f2d1b3;;opacity:0.4;
+   border-radius: 10px;
+   box-shadow:
+ 3.1px 3.8px 4.6px -76px rgba(0, 0, 0, 0.275),
+ 12.8px 15.4px 15.4px -76px rgba(0, 0, 0, 0.45),
+ 31.4px 37.8px 41.7px -76px rgba(0, 0, 0, 0.597),
+ 57.4px 69.2px 75.6px -76px rgba(0, 0, 0, 0.729),
+ 68px 82px 94px -76px rgba(0, 0, 0, 0.85)
+}
+img {
+    height: 300px;
+    width: 400;
+}
+/*sewar mosh rdya tzbot flm2ast zy alba2y*/
+.sewarrezla{
+    margin: 20px;
+    margin-bottom: 80px;
+    height: 180;
+    width: 300;
+}

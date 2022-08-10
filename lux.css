@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*navbar */
+.navTitle{
+    color: #6d231c!important;
+}
+.alheader{
+    width: 100%;
+}
+.container ,.container2 {
+    display: flex;
+    height: 560px;
+    margin: 50px;
+}
+.firstcar {
+    margin: 40px;
+    text-align: center;
+    background: color #e6c5a8;
+    border-radius: 30%;
+    box-shadow:
+  3.1px 3.8px 4.6px -76px rgba(0, 0, 0, 0.275),
+  12.8px 15.4px 15.4px -76px rgba(0, 0, 0, 0.45),
+  31.4px 37.8px 41.7px -76px rgba(0, 0, 0, 0.597),
+  57.4px 69.2px 75.6px -76px rgba(0, 0, 0, 0.729),
+  68px 82px 94px -76px rgba(0, 0, 0, 0.85)
+;
+ }
+ img {
+     height: 300px;
+     width: 400;
+ }
+button{
+    background-color: #b3c3d8;
+    border-radius: 5px;
+    border-style: solid;
+}
